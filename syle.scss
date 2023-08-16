@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    background: lightseagreen;
+    .header{
+        display: flex;
+        height: 80px;
+        width: 100%;
+        .col{
+            .row1{
+                padding-left: 10%;
+                display: flex;
+                height: 80px;
+                align-items: center;
+                img{
+                    margin-right: 10px;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+        .col{
+            .row2{
+                display: flex;
+                height: 100px;
+                align-items: center;
+                margin-left: -143px;
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+.hero{
+    background-image: linear-gradient(45deg, rgba(0, 183, 255, 0.342), rgb(158, 133, 133));
+    display: flex;
+    .col{
+        p{
+            padding: 90px;
+            text-align: justify;
+        }
+        .form1{
+            padding: 20px;
+            width: 80%;
+            height: 100%;
+            form{
+                margin-left: 100px;
+                width: 90%;
+                border: 2px solid white;
+                padding: 10px;
+                border-radius: 5px;
+            div{
+                label{
+                    font-size: 15px;
+                }
+                input{
+                    font-size: 10px;
+                }
+            }
+        }
+        }
+    }
+}
+
+.speakerList{
+     background-color: rgb(178, 228, 225);
+.container{
+    padding: 10px;
+        .col{
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    .col{
+        padding: 80px;
+        p{
+            margin-bottom: 0px;
+        }
+        h4{
+            font-weight: bold;
+        }
+        i{
+            font-size: 70px;
+        }
+    }
+}

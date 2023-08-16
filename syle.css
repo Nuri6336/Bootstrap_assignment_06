@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  background: lightseagreen;
+}
+
+.container-fluid .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+
+.container-fluid .header .col .row1 {
+  padding-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-fluid .header .col .row1 img {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.container-fluid .header .col .row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -143px;
+}
+
+.container-fluid .header .col .row2 p {
+  font-size: 25px;
+}
+
+.hero {
+  background-image: linear-gradient(45deg, rgba(0, 183, 255, 0.342), #9e8585);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .col p {
+  padding: 90px;
+  text-align: justify;
+}
+
+.hero .col .form1 {
+  padding: 20px;
+  width: 80%;
+  height: 100%;
+}
+
+.hero .col .form1 form {
+  margin-left: 100px;
+  width: 90%;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hero .col .form1 form div label {
+  font-size: 15px;
+}
+
+.hero .col .form1 form div input {
+  font-size: 10px;
+}
+
+.speakerList {
+  background-color: #b2e4e1;
+}
+
+.speakerList .container {
+  padding: 10px;
+}
+
+.speakerList .container .col p {
+  font-size: 30px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0e0d0d;
+  color: white;
+}
+
+.footer .col {
+  padding: 80px;
+}
+
+.footer .col p {
+  margin-bottom: 0px;
+}
+
+.footer .col h4 {
+  font-weight: bold;
+}
+
+.footer .col i {
+  font-size: 70px;
+}
+/*# sourceMappingURL=syle.css.map */
